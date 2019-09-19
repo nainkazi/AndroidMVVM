@@ -1,2 +1,7 @@
 # AndroidMVVM
-Android MVVM architecture Java
+Android MVVM architecture
+
+
+
+
+

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:fresco="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tv_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="@dimen/activity_padding"
+        android:paddingEnd="@dimen/activity_padding"
+        android:paddingStart="@dimen/activity_padding"
+        android:paddingTop="@dimen/activity_padding"
+        android:textColor="@color/black"
+        android:textSize="@dimen/text_size_large"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/news_image"
+        android:layout_width="210dp"
+        android:layout_height="140dp"
+        android:layout_gravity="center"
+        android:paddingBottom="10dp"
+         android:background="@drawable/place_holder"
+        android:scaleType="centerCrop"/>
+
+    <TextView
+        android:id="@+id/summary_content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="@dimen/activity_padding"
+        android:paddingEnd="@dimen/activity_padding"
+        android:paddingStart="@dimen/activity_padding" />
+
+    <Button
+        android:id="@+id/full_story_link"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/btn_height"
+        android:layout_marginEnd="@dimen/activity_padding"
+        android:layout_marginStart="@dimen/activity_padding"
+        android:text="@string/full_story" />
+
+</LinearLayout>

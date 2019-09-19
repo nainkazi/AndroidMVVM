@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">AndroidMVVM</string>
+    <string name="title">News title</string>
+    <string name="label_news_list">News Feeds</string>
+    <string name="full_story">Full story</string>
+    <string name="not_found">Link not found!</string>
+</resources>

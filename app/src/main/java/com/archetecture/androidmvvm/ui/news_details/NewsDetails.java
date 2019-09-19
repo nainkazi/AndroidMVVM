@@ -43,9 +43,7 @@ public class NewsDetails extends AppCompatActivity {
         tv_summery = (TextView) findViewById(R.id.summary_content);
         bt_web = (Button) findViewById(R.id.full_story_link);
         tv_summery = (TextView) findViewById(R.id.summary_content);
-
         setData();
-
         bt_web.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
